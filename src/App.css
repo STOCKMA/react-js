@@ -1,0 +1,66 @@
+.App-logo {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.App-header {
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    padding: 20px 20px;
+    color: black;
+    animation: App-logo-spin infinite 10s ease-in;
+    font-family: "Raleway", sans-serif
+}
+
+.App-header h1 {
+    font-weight: 200;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+}
+
+.App-content {
+    padding: 40px;
+    
+    }
+
+.App-title{ 
+     color: #111; 
+     font-family: 'Open Sans Condensed',sans-serif; 
+     font-size: 48px;  
+     font-weight: 700;  
+     line-height: 48px;  
+     margin: 0 0 24px;  
+     padding: 0 30px;  
+     text-align: center;  
+     text-transform: uppercase; 
+} 
+
+
+
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes App-logo-spin {
+    0%   {background-color:midnightblue; left:0px; top:0px;}
+    25%  {background-color:darkblue; left:0px; top:100px;}
+    50%  {background-color:blue; left:0px; top:200px;}
+    75%  {background-color:dodgerblue; left:0px; top:300px;}
+    100% {background-color:lightskyblue; left:0px; top:400px;}
+}
+
+body {
+background-image: url("album-image.png");
+background-size: 130% 150%;
+}
+
